@@ -95,7 +95,7 @@ export default function Roadmap() {
               We&apos;re building in the open. Join our community to suggest features and vote on priorities.
             </p>
             <a 
-              href="https://github.com/summonwill/AI-Bootstrap-System" 
+              href="https://github.com/summonwill/AI-Bootstrap-Framework" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-500"

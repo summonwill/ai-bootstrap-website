@@ -20,7 +20,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="#features" className="hover:text-white transition-colors">Features</Link></li>
               <li><Link href="#pricing" className="hover:text-white transition-colors">Pricing</Link></li>
-              <li><a href="https://github.com/summonwill/AI-Bootstrap-System" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a></li>
+              <li><a href="https://github.com/summonwill/AI-Bootstrap-Framework" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a></li>
               <li><Link href="#roadmap" className="hover:text-white transition-colors">Roadmap</Link></li>
             </ul>
           </div>

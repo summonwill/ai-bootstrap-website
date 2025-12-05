@@ -412,7 +412,7 @@ AI Bootstrap Systems demonstrates:
 
 ### Free & Open Source
 Download the Bootstrap Pack from GitHub:
-[github.com/summonwill/AI-Bootstrap-System](https://github.com/summonwill/AI-Bootstrap-System)
+[github.com/summonwill/AI-Bootstrap-Framework](https://github.com/summonwill/AI-Bootstrap-Framework)
 
 ### Enterprise Solutions
 Contact us for compliance dashboards, SSO integration, and training:

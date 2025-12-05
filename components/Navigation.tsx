@@ -18,7 +18,7 @@ export default function Navigation() {
               Pricing
             </Link>
             <Link
-              href="https://github.com/summonwill/AI-Bootstrap-System"
+              href="https://github.com/summonwill/AI-Bootstrap-Framework"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"

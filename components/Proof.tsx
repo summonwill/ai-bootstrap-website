@@ -21,7 +21,7 @@ export default function Proof() {
                 Our tests show 90-98% diff consistency vs 20-40% without rules.
               </dd>
               <a 
-                href="https://github.com/summonwill/AI-Bootstrap-System" 
+                href="https://github.com/summonwill/AI-Bootstrap-Framework" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-500"
@@ -39,7 +39,7 @@ export default function Proof() {
                 classify risk, and maintain full audit trails.
               </dd>
               <a 
-                href="https://github.com/summonwill/AI-Bootstrap-System" 
+                href="https://github.com/summonwill/AI-Bootstrap-Framework" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-500"
@@ -57,7 +57,7 @@ export default function Proof() {
                 change logs, and how rules constrain AI behavior.
               </dd>
               <a 
-                href="https://github.com/summonwill/AI-Bootstrap-System" 
+                href="https://github.com/summonwill/AI-Bootstrap-Framework" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-500"
@@ -84,7 +84,7 @@ export default function Proof() {
                 Download Whitepaper (PDF)
               </a>
               <a 
-                href="https://github.com/summonwill/AI-Bootstrap-System" 
+                href="https://github.com/summonwill/AI-Bootstrap-Framework" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 rounded-md border border-blue-600 text-blue-600 font-semibold text-sm hover:bg-blue-50 transition-colors"

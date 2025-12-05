@@ -4,7 +4,7 @@ const tiers = [
   {
     name: 'Open Source',
     id: 'free',
-    href: 'https://github.com/summonwill/AI-Bootstrap-System',
+    href: 'https://github.com/summonwill/AI-Bootstrap-Framework',
     price: '$0',
     description: 'Perfect for individual developers and small teams',
     features: [
