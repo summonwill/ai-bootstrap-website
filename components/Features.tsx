@@ -94,6 +94,9 @@ export default function Features() {
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Built by developers, for developers. Prevent AI disasters before they happen.
           </p>
+          <p className="mt-4 text-base leading-7 text-gray-600">
+            Self-bootstrapping framework with safety-first principles, persistent memory, and built-in compliance features.
+          </p>
         </div>
         <div className="mx-auto mt-16 max-w-7xl">
           <dl className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
