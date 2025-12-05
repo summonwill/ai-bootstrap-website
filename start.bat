@@ -10,6 +10,9 @@ echo Press Ctrl+C to stop the server
 echo ========================================
 echo.
 
+REM Open browser after 3 seconds delay
+start /B timeout /t 3 /nobreak > nul && start http://localhost:3000
+
 REM Start the Next.js dev server
 npm run dev
 

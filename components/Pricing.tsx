@@ -21,17 +21,17 @@ const tiers = [
     name: 'Professional',
     id: 'pro',
     href: '#contact',
-    price: '$39',
-    description: 'For solo developers who want AI governance',
+    price: '$19',
+    description: 'Founding Members — lock in early pricing forever',
     features: [
       'Everything in Open Source',
-      'Determinism Test Suite access',
-      'VS Code & GitHub integration',
-      'Advanced templates & examples',
-      'Priority email support',
-      'Certification badge',
+      'CLI with governance enforcement',
+      'GitHub Action (automated PR checks)',
+      'Determinism Test Suite',
+      'Governed starter kits',
+      'Priority Discord & email support',
     ],
-    cta: 'Coming Soon',
+    cta: 'Launch: Jan 2026',
     highlighted: false,
   },
   {
@@ -80,7 +80,7 @@ export default function Pricing() {
             Simple, transparent pricing
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Start free with open source. Upgrade when you need enterprise features.
+            Start free with open source. <strong>Founding Members</strong> lock in $19/mo forever — price increases to $29/mo after launch.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-4">
