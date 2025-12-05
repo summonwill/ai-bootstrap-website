@@ -19,8 +19,7 @@ This file tracks tasks for engineers and AI agents.
 
 ## In Progress
 
-- [ ] Update Cloudflare Pages build output directory to `out`
-- [ ] Trigger new deployment to test the configuration
+(No active tasks)
 
 ## Done
 
@@ -29,3 +28,4 @@ This file tracks tasks for engineers and AI agents.
 - [x] Add AI_RULES_AND_BEST_PRACTICES.md (v1.2)
 - [x] Bootstrap AI agent system (generate state files)
 - [x] Configure Next.js for static export (Cloudflare Pages compatibility)
+- [x] Successfully deploy to Cloudflare Pages (aibootstrapsystems.com)
