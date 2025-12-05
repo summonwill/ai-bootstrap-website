@@ -233,3 +233,90 @@ Chronological log of AI and engineer work sessions.
   - [ ] Create /legal/* pages for detailed terms, privacy, disclaimer
   - [ ] Add real benchmark data once test suite is built
   - [ ] Create sample SESSION_NOTES.md files for download
+
+---
+
+## [2025-12-05] Session 6
+
+- **Agent / Engineer**: AI agent (GitHub Copilot)
+- **Goal**: Review business strategy feedback, update LAUNCH_ROADMAP.md, align website with launch plan, create dev tooling
+
+- **Files touched**:
+  - `LAUNCH_ROADMAP.md` (updated)
+  - `components/Roadmap.tsx` (updated)
+  - `components/Pricing.tsx` (updated)
+  - `start.bat` (created)
+  - `stop.bat` (created)
+
+- **Risk classification**: LOW (documentation updates and dev tooling)
+
+- **Summary**:
+
+  **Strategic Roadmap Updates:**
+  - Reviewed ChatGPT business strategy feedback and engineering assessment
+  - Updated `LAUNCH_ROADMAP.md` with key architectural decisions:
+    - CLI-first architecture (single source of truth, prevents duplicate logic)
+    - Free tier strategy: unlimited repos but no automation (creates "automation pain")
+    - Progressive pricing: $19/mo → $24/mo → $29/mo with grandfathering
+    - Team tier MVP scoped to dashboard + alerts (2-3 weeks vs 8+ weeks)
+    - Enterprise delayed until 3+ prospects at $10k+/year
+  - Added decision log documenting rationale for all changes
+
+  **Website Alignment:**
+  - Updated `components/Roadmap.tsx` to match LAUNCH_ROADMAP.md:
+    - Q1 2026: Added CLI Core, GitHub Action, Pro Launch ($19/mo Founding)
+    - Q2 2026: Changed pricing from $39 to $24/mo, moved VS Code to post-launch
+    - Q3 2026: Simplified Team tier to MVP (dashboard + alerts)
+    - Q4 2026: Enterprise with compliance, removed LLM partnerships
+  - Updated `components/Pricing.tsx`:
+    - Pro tier: $39/mo → $19/mo (Founding Members)
+    - Features updated to match launch plan (CLI, GitHub Action, starter kits)
+    - CTA changed to "Launch: Jan 2026"
+    - Header: Shows full progression "$19 → $24 (Q2) → $29 (Q3+)"
+    - Team tier: Added "Up to 20 Pro accounts included" (effective $14.95/user)
+
+  **Developer Tooling:**
+  - Created `start.bat`:
+    - Launches Next.js dev server (npm/yarn/pnpm fallbacks)
+    - Auto-opens browser at localhost:3000 after 3s delay
+    - Displays welcome banner and instructions
+  - Created `stop.bat`:
+    - Kills all Node.js processes
+    - Releases port 3000
+    - Cleans up npm/yarn/pnpm processes
+
+- **Strategic improvements**:
+  - ✅ CLI-first prevents duplicate logic across GitHub Action, VS Code, CLI
+  - ✅ Free tier strategy drives upgrades (test on all repos → need automation)
+  - ✅ Progressive pricing rewards early adopters while increasing value
+  - ✅ Team tier value prop clear: 20 accounts = 21% discount per user
+  - ✅ Roadmap and pricing now fully aligned across site
+
+- **Uncertainties / Questions**:
+  - None - all changes align with LAUNCH_ROADMAP.md v1.0
+
+- **Follow-up tasks**:
+  - [x] Update LAUNCH_ROADMAP.md with engineering feedback
+  - [x] Align website roadmap with launch plan
+  - [x] Update pricing to founding member rate ($19/mo)
+  - [x] Create start.bat with auto-browser-open
+  - [x] Create stop.bat for cleanup
+  - [ ] Begin Phase 0 of LAUNCH_ROADMAP (Architecture & Specs)
+  - [ ] Start CLI command specification (abs check, abs determinism)
+
+- **Git commits (Session 6)**:
+  - `17c1514` - Update LAUNCH_ROADMAP.md with engineering feedback
+  - `c67ab7f` - Align website roadmap with LAUNCH_ROADMAP.md
+  - `f9cef1c` - Add start.bat for easy dev server launch on Windows
+  - `f3eea8c` - Update pricing to founding member rate and fix browser auto-open
+  - `bbd125d` - Add 20 Pro accounts included in Team tier pricing
+  - `5a779d6` - Add stop.bat to terminate dev server and release port 3000
+  - `8b73006` - Fix pricing progression to show all tiers: $19 → $24 → $29
+
+- **Notes**:
+  - Session focused on strategic alignment and developer experience
+  - All pricing and roadmap inconsistencies resolved
+  - Website now accurately reflects 6-8 week Pro launch timeline
+  - Founding member pricing strategy creates urgency and rewards early adopters
+
+
