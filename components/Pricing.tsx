@@ -21,14 +21,32 @@ const tiers = [
     name: 'Professional',
     id: 'pro',
     href: '#contact',
-    price: '$29',
-    description: 'For professional developers and small teams',
+    price: '$39',
+    description: 'For solo developers who want AI governance',
     features: [
       'Everything in Open Source',
-      'Cloud-hosted platform',
+      'Determinism Test Suite access',
+      'VS Code & GitHub integration',
       'Advanced templates & examples',
       'Priority email support',
-      'Team collaboration (up to 10)',
+      'Certification badge',
+    ],
+    cta: 'Coming Soon',
+    highlighted: false,
+  },
+  {
+    name: 'Team',
+    id: 'team',
+    href: '#contact',
+    price: '$299',
+    description: 'For teams needing consistent agent governance',
+    features: [
+      'Everything in Professional',
+      'Multi-team collaboration',
+      'Shared governance policies',
+      'Team training & onboarding',
+      'Advanced audit logging',
+      'Priority support',
     ],
     cta: 'Coming Soon',
     highlighted: false,
@@ -38,14 +56,14 @@ const tiers = [
     id: 'enterprise',
     href: '#contact',
     price: 'Custom',
-    description: 'For organizations with advanced compliance needs',
+    description: 'Complete governance platform with compliance',
     features: [
-      'Everything in Professional',
-      'SOC2 / HIPAA compliance features',
-      'Multi-team management',
+      'Everything in Team',
+      'SOC2 / HIPAA compliance mode',
       'SSO & enterprise integrations',
       'Dedicated support & SLA',
       'Custom implementation services',
+      'Determinism certification program',
       'Training & certification',
     ],
     cta: 'Contact Sales',
@@ -65,7 +83,7 @@ export default function Pricing() {
             Start free with open source. Upgrade when you need enterprise features.
           </p>
         </div>
-        <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-4">
           {tiers.map((tier) => (
             <div
               key={tier.id}

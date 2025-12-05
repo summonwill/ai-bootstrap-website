@@ -6,10 +6,13 @@ export default function CTA() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Ready to build reliable AI systems?
+            AI doesn't have to be a risk
           </h2>
           <p className="mt-6 text-lg leading-8 text-blue-100">
-            Start with open source today, or contact us about enterprise features.
+            With AI Bootstrap Systems, it becomes a disciplined teammate.
+          </p>
+          <p className="mt-4 text-lg font-semibold text-white">
+            You're in control. AI follows the rules. Every change is traceable.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link

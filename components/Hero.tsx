@@ -6,13 +6,14 @@ export default function Hero() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            The Operating System for{' '}
-            <span className="text-blue-600">AI-Assisted Development</span>
+            The Governance OS for{' '}
+            <span className="text-blue-600">Safe, Predictable AI Development</span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Deterministic, auditable, and safe AI behavior for enterprises. 
-            Self-bootstrapping framework with safety-first principles, persistent memory, 
-            and built-in compliance features.
+            AI agents don&apos;t need to be unpredictable. Give them rules. Give them structure. Keep the control.
+          </p>
+          <p className="mt-4 text-xl font-semibold text-blue-600">
+            You&apos;re in the driver&apos;s seat — the AI follows your lead.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link
@@ -48,6 +49,12 @@ export default function Hero() {
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <span>No Vendor Lock-in</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <svg className="h-5 w-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              <span>Deterministic Testing</span>
             </div>
           </div>
         </div>
