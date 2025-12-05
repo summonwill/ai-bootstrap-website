@@ -21,7 +21,10 @@ export default function Roadmap() {
                   { icon: '✅', text: 'Bootstrap Pack v1.0 (AI_RULES_AND_BEST_PRACTICES.md)' },
                   { icon: '✅', text: 'Landing page and documentation' },
                   { icon: '✅', text: 'GitHub templates and examples' },
-                  { icon: '🔄', text: 'Community building and early adoption' }
+                  { icon: '🔄', text: 'CLI Core (abs check & abs determinism)' },
+                  { icon: '🔄', text: 'GitHub Action for PR enforcement' },
+                  { icon: '🔄', text: 'Pro Launch ($19/mo Founding Members)' },
+                  { icon: '📅', text: 'Next.js Governed Starter Kit' }
                 ]
               },
               {
@@ -29,11 +32,11 @@ export default function Roadmap() {
                 status: 'Coming Soon',
                 color: 'blue',
                 items: [
-                  { icon: '📅', text: 'VS Code extension (governance validation)' },
-                  { icon: '📅', text: 'GitHub Action for CI/CD enforcement' },
-                  { icon: '📅', text: 'Professional tier launch ($39/mo)' },
-                  { icon: '📅', text: 'Determinism Test Suite v1.0' },
-                  { icon: '📅', text: 'First paid teams onboarding' }
+                  { icon: '📅', text: 'Python FastAPI Starter Kit' },
+                  { icon: '📅', text: 'VS Code extension (basic commands)' },
+                  { icon: '📅', text: 'Pro tier expansion ($24/mo standard pricing)' },
+                  { icon: '📅', text: 'Advanced determinism reporting' },
+                  { icon: '📅', text: 'Additional governed starter kits' }
                 ]
               },
               {
@@ -41,11 +44,11 @@ export default function Roadmap() {
                 status: 'Planned',
                 color: 'gray',
                 items: [
+                  { icon: '📅', text: 'Team Dashboard (multi-repo governance view)' },
+                  { icon: '📅', text: 'Slack/Discord alert integrations' },
                   { icon: '📅', text: 'Team tier launch ($299/mo)' },
-                  { icon: '📅', text: 'Compliance dashboards (SOC2/HIPAA mode)' },
-                  { icon: '📅', text: 'Enterprise onboarding program' },
-                  { icon: '📅', text: 'Hosted platform beta' },
-                  { icon: '📅', text: 'Multi-team collaboration features' }
+                  { icon: '📅', text: 'Shared team governance policies' },
+                  { icon: '📅', text: 'Advanced audit logging' }
                 ]
               },
               {
@@ -53,11 +56,11 @@ export default function Roadmap() {
                 status: 'Planned',
                 color: 'gray',
                 items: [
-                  { icon: '📅', text: 'Enterprise tier general availability' },
-                  { icon: '📅', text: 'Partnerships with LLM providers (OpenAI, Anthropic)' },
-                  { icon: '📅', text: 'Open Standard v1.0 release' },
+                  { icon: '📅', text: 'Enterprise tier (custom pricing)' },
+                  { icon: '📅', text: 'SOC2/HIPAA compliance mode' },
+                  { icon: '📅', text: 'SSO integration (Okta, Azure AD, Google)' },
                   { icon: '📅', text: 'Determinism Certification Program' },
-                  { icon: '📅', text: 'Full enterprise platform with SSO' }
+                  { icon: '📅', text: 'Multi-team collaboration features' }
                 ]
               }
             ].map((phase) => (
