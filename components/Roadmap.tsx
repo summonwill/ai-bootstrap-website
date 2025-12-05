@@ -18,10 +18,10 @@ export default function Roadmap() {
                 status: 'In Progress',
                 color: 'green',
                 items: [
-                  '✅ Bootstrap Pack v1.0 (AI_RULES_AND_BEST_PRACTICES.md)',
-                  '✅ Landing page and documentation',
-                  '✅ GitHub templates and examples',
-                  '🔄 Community building and early adoption'
+                  { icon: '✅', text: 'Bootstrap Pack v1.0 (AI_RULES_AND_BEST_PRACTICES.md)' },
+                  { icon: '✅', text: 'Landing page and documentation' },
+                  { icon: '✅', text: 'GitHub templates and examples' },
+                  { icon: '🔄', text: 'Community building and early adoption' }
                 ]
               },
               {
@@ -29,11 +29,11 @@ export default function Roadmap() {
                 status: 'Coming Soon',
                 color: 'blue',
                 items: [
-                  'VS Code extension (governance validation)',
-                  'GitHub Action for CI/CD enforcement',
-                  'Professional tier launch ($39/mo)',
-                  'Determinism Test Suite v1.0',
-                  'First paid teams onboarding'
+                  { icon: '📅', text: 'VS Code extension (governance validation)' },
+                  { icon: '📅', text: 'GitHub Action for CI/CD enforcement' },
+                  { icon: '📅', text: 'Professional tier launch ($39/mo)' },
+                  { icon: '📅', text: 'Determinism Test Suite v1.0' },
+                  { icon: '📅', text: 'First paid teams onboarding' }
                 ]
               },
               {
@@ -41,11 +41,11 @@ export default function Roadmap() {
                 status: 'Planned',
                 color: 'gray',
                 items: [
-                  'Team tier launch ($299/mo)',
-                  'Compliance dashboards (SOC2/HIPAA mode)',
-                  'Enterprise onboarding program',
-                  'Hosted platform beta',
-                  'Multi-team collaboration features'
+                  { icon: '📅', text: 'Team tier launch ($299/mo)' },
+                  { icon: '📅', text: 'Compliance dashboards (SOC2/HIPAA mode)' },
+                  { icon: '📅', text: 'Enterprise onboarding program' },
+                  { icon: '📅', text: 'Hosted platform beta' },
+                  { icon: '📅', text: 'Multi-team collaboration features' }
                 ]
               },
               {
@@ -53,11 +53,11 @@ export default function Roadmap() {
                 status: 'Planned',
                 color: 'gray',
                 items: [
-                  'Enterprise tier general availability',
-                  'Partnerships with LLM providers (OpenAI, Anthropic)',
-                  'Open Standard v1.0 release',
-                  'Determinism Certification Program',
-                  'Full enterprise platform with SSO'
+                  { icon: '📅', text: 'Enterprise tier general availability' },
+                  { icon: '📅', text: 'Partnerships with LLM providers (OpenAI, Anthropic)' },
+                  { icon: '📅', text: 'Open Standard v1.0 release' },
+                  { icon: '📅', text: 'Determinism Certification Program' },
+                  { icon: '📅', text: 'Full enterprise platform with SSO' }
                 ]
               }
             ].map((phase) => (
@@ -75,10 +75,8 @@ export default function Roadmap() {
                 <ul className="space-y-2">
                   {phase.items.map((item, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-gray-600">
-                      <span className="text-lg mt-0.5">
-                        {item.startsWith('✅') ? '✅' : item.startsWith('🔄') ? '🔄' : '📅'}
-                      </span>
-                      <span>{item.replace(/^[✅🔄📅]\s*/, '')}</span>
+                      <span className="text-lg mt-0.5">{item.icon}</span>
+                      <span>{item.text}</span>
                     </li>
                   ))}
                 </ul>
