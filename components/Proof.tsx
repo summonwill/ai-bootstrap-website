@@ -77,12 +77,11 @@ export default function Proof() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
-                href="https://github.com/summonwill/AI-Bootstrap-System" 
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/AI-Bootstrap-Systems-Determinism-Whitepaper.md" 
+                download
                 className="inline-flex items-center px-4 py-2 rounded-md bg-blue-600 text-white font-semibold text-sm hover:bg-blue-500 transition-colors"
               >
-                Download Whitepaper (PDF)
+                Download Whitepaper (Markdown)
               </a>
               <a 
                 href="https://github.com/summonwill/AI-Bootstrap-System" 
