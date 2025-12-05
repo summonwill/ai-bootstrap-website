@@ -81,7 +81,7 @@ export default function Pricing() {
             Simple, transparent pricing
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Start free with open source. <strong>Founding Members</strong> lock in $19/mo forever — price increases to $29/mo after launch.
+            Start free with open source. <strong>Founding Members</strong> lock in $19/mo forever — price increases to $24/mo (Q2) and $29/mo (Q3+).
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-4">
