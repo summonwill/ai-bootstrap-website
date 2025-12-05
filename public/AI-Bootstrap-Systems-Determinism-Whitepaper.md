@@ -416,7 +416,7 @@ Download the Bootstrap Pack from GitHub:
 
 ### Enterprise Solutions
 Contact us for compliance dashboards, SSO integration, and training:
-**hello@aibootstrapsystems.com**
+**aaron@aibootstrapsystems.com**
 
 ### Learn More
 Visit [aibootstrapsystems.com](https://aibootstrapsystems.com) for documentation, case studies, and certification programs.

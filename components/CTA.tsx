@@ -24,7 +24,7 @@ export default function CTA() {
               View on GitHub
             </Link>
             <a
-              href="mailto:hello@aibootstrapsystems.com"
+              href="mailto:aaron@aibootstrapsystems.com"
               className="text-sm font-semibold leading-6 text-white hover:text-blue-100 transition-colors"
             >
               Contact Sales <span aria-hidden="true">→</span>
