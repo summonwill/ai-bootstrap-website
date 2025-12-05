@@ -14,7 +14,7 @@ export default function Roadmap() {
           <div className="space-y-8">
             {[
               {
-                quarter: 'Q1 2025',
+                quarter: 'Q1 2026',
                 status: 'In Progress',
                 color: 'green',
                 items: [
@@ -25,7 +25,7 @@ export default function Roadmap() {
                 ]
               },
               {
-                quarter: 'Q2 2025',
+                quarter: 'Q2 2026',
                 status: 'Coming Soon',
                 color: 'blue',
                 items: [
@@ -37,7 +37,7 @@ export default function Roadmap() {
                 ]
               },
               {
-                quarter: 'Q3 2025',
+                quarter: 'Q3 2026',
                 status: 'Planned',
                 color: 'gray',
                 items: [
@@ -49,7 +49,7 @@ export default function Roadmap() {
                 ]
               },
               {
-                quarter: 'Q4 2025',
+                quarter: 'Q4 2026',
                 status: 'Planned',
                 color: 'gray',
                 items: [
