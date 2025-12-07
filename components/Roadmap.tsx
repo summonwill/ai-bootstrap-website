@@ -18,13 +18,13 @@ export default function Roadmap() {
                 status: 'In Progress',
                 color: 'green',
                 items: [
-                  { icon: '✅', text: 'Bootstrap Pack v1.0 (AI_RULES_AND_BEST_PRACTICES.md)' },
+                  { icon: '✅', text: 'AI Bootstrap Framework v1.0 (Open Source)' },
                   { icon: '✅', text: 'Landing page and documentation' },
-                  { icon: '✅', text: 'GitHub templates and examples' },
-                  { icon: '🔄', text: 'CLI Core (abs check & abs determinism)' },
-                  { icon: '🔄', text: 'GitHub Action for PR enforcement' },
-                  { icon: '🔄', text: 'Pro Launch ($19/mo Founding Members)' },
-                  { icon: '📅', text: 'Next.js Governed Starter Kit' }
+                  { icon: '✅', text: 'ABS Platform v0.3 (Windows & macOS alpha)' },
+                  { icon: '🔄', text: 'Multi-provider AI chat (OpenAI, Claude, Gemini)' },
+                  { icon: '🔄', text: 'File operations with AI governance' },
+                  { icon: '🔄', text: 'Session tracking & auto-documentation' },
+                  { icon: '📅', text: 'Pro Launch: ABS Platform ($19/mo Founding)' }
                 ]
               },
               {
@@ -32,11 +32,12 @@ export default function Roadmap() {
                 status: 'Coming Soon',
                 color: 'blue',
                 items: [
-                  { icon: '📅', text: 'Python FastAPI Starter Kit' },
-                  { icon: '📅', text: 'VS Code extension (basic commands)' },
-                  { icon: '📅', text: 'Pro tier expansion ($24/mo standard pricing)' },
-                  { icon: '📅', text: 'Advanced determinism reporting' },
-                  { icon: '📅', text: 'Additional governed starter kits' }
+                  { icon: '📅', text: 'Ollama integration (free local AI)' },
+                  { icon: '📅', text: 'Python script execution & Excel automation' },
+                  { icon: '📅', text: 'Multi-session windows (parallel workflows)' },
+                  { icon: '📅', text: 'Mobile apps (iOS & Android beta)' },
+                  { icon: '📅', text: 'CLI tools (abs check, abs determinism)' },
+                  { icon: '📅', text: 'Pro tier expansion ($24/mo standard)' }
                 ]
               },
               {
@@ -44,11 +45,11 @@ export default function Roadmap() {
                 status: 'Planned',
                 color: 'gray',
                 items: [
+                  { icon: '📅', text: 'Multi-agent architecture (specialized AI agents)' },
                   { icon: '📅', text: 'Team Dashboard (multi-repo governance view)' },
-                  { icon: '📅', text: 'Slack/Discord alert integrations' },
-                  { icon: '📅', text: 'Team tier launch ($299/mo)' },
-                  { icon: '📅', text: 'Shared team governance policies' },
-                  { icon: '📅', text: 'Advanced audit logging' }
+                  { icon: '📅', text: 'Shared team policies & workspace sync' },
+                  { icon: '📅', text: 'Team tier launch ($299/mo - 20 accounts)' },
+                  { icon: '📅', text: 'Web version (browser-based ABS Platform)' }
                 ]
               },
               {
@@ -56,11 +57,11 @@ export default function Roadmap() {
                 status: 'Planned',
                 color: 'gray',
                 items: [
-                  { icon: '📅', text: 'Enterprise tier (custom pricing)' },
+                  { icon: '📅', text: 'Governed agent teams (UI, API, Test, Docs agents)' },
+                  { icon: '📅', text: 'Enterprise tier with SSO (Okta, Azure AD, Google)' },
                   { icon: '📅', text: 'SOC2/HIPAA compliance mode' },
-                  { icon: '📅', text: 'SSO integration (Okta, Azure AD, Google)' },
                   { icon: '📅', text: 'Determinism Certification Program' },
-                  { icon: '📅', text: 'Multi-team collaboration features' }
+                  { icon: '📅', text: 'VS Code extension & GitHub Action integration' }
                 ]
               }
             ].map((phase) => (
