@@ -36,7 +36,7 @@ AI Bootstrap Systems introduces a **deterministic governance layer**, ensuring:
 - ✅ Consistent behavior across sessions
 - ✅ Minimal diff variance (surgical changes only)
 - ✅ Predictable cross-session continuity
-- ✅ Human-controlled approval pathways
+- ✅ Developer-controlled approval pathways
 - ✅ Complete auditability
 
 ---

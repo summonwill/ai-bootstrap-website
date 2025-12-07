@@ -41,9 +41,9 @@ const problems = [
     description: 'No way to prove what AI did or why for regulatory requirements',
     examples: [
       'SOC2 audits fail due to lack of change documentation',
-      'HIPAA compliance requires human approval records',
+      'HIPAA compliance requires engineer approval records',
       'Financial services regulations demand full audit trails',
-      'No proof of human oversight for critical system changes',
+      'No proof of engineer oversight for critical system changes',
       'Can\'t demonstrate due diligence in security-sensitive code'
     ]
   },

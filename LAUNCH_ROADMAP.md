@@ -143,7 +143,7 @@ Validations:
    - Fail if missing during significant changes
 
 5. **Output Generation**
-   - Human-readable console output (colored, formatted)
+   - Developer-readable console output (colored, formatted)
    - Structured JSON logs to `/abs-logs/YYYY-MM-DD-HH-MM-SS.jsonl`
    - Summary statistics
 
