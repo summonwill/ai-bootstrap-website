@@ -4,12 +4,13 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            End-to-End AI Project Development{' '}
-            <span className="text-blue-600">With Governance Built In</span>
-          </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+      <div className="mx-auto max-w-2xl text-center">
+        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+          End-to-End AI Project Development
+          <br />
+          <span className="text-blue-600">With Governance Built In</span>
+        </h1>
+        <p className="mt-6 text-lg leading-8 text-gray-600">
             ABS Platform: The governed environment for AI-assisted development. Any industry. Any platform. Your rules, always followed.
           </p>
           <p className="mt-4 text-xl font-semibold text-blue-600">
